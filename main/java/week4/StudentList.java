@@ -90,5 +90,5 @@ public class StudentList{
             System.out.println(infor.getKey()+ "|" + infor.getValue());
         }
     }
-    
+    sc.close();
 }
