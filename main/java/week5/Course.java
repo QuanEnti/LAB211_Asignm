@@ -25,6 +25,30 @@ public class Course {
         this.credits = credit;
     }
 
+    public String getCourseID() {
+        return courseID;
+    }
+
+    public void setCourseID(String courseID) {
+        this.courseID = courseID;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public int getCredits() {
+        return credits;
+    }
+
+    public void setCredits(int credits) {
+        this.credits = credits;
+    }
+    
     @Override
     public String toString() {
         return "Course{" + "courseID=" + courseID + ", courseName=" + courseName + ", credits=" + credits + '}';
